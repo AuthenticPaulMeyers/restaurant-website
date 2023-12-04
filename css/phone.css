@@ -1,0 +1,112 @@
+/* media queries for mobile devices */
+
+@media(max-width: 480px){
+
+
+    header{
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .nav {
+        padding:1rem;
+        max-width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav .logo{
+        margin-left: 2px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .cartTab{
+        max-width: 100%;
+    }
+
+        .dishes .box-container .box img{
+            height:auto;
+            width: 100%;
+        }
+    
+    
+        .order form .inputBox .input{
+            width:100%;
+        }
+    
+        .about .row .content .image img{
+        width:100%;
+        height:auto;
+    }
+        .home{
+            width:100%;
+        }
+        .about{
+            padding: 2rem 4rem;
+        }
+        .about .row{
+            width:80%;
+        
+        }
+        
+        .about .row .image{
+            width: 80%;
+        }
+        
+        .about .row .content{
+            width: 100%;
+            justify-content: center;
+        }
+        
+        .about .row .image img{
+            width:100%;
+        }
+        
+        .about .row .content p{
+            font-size: 1.2rem;
+        }
+        body{
+            padding: 0 2rem;
+        }
+        .footer{
+            padding: 2rem 4rem;
+        }
+        .menu .box-container .box .image{
+            width: 100%;
+        }
+        .menu .box-container .box .image img{
+            width: 100%;
+     
+        }
+        .dishes .box-container .box .image img{
+            width:100%;
+            
+        }
+        .home .home-slider .slide .content{
+            
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: center;
+            margin-top:4.5rem;
+        }
+        .home .home-slider .slide .content span{
+            text-align:center;
+            font-size:2rem;
+        }
+        .home .home-slider .slide .content p{
+            text-align:center;
+        }
+        .home .home-slider .slide .image{
+            display: flex;
+            justify-content: center;
+        }
+        .home .home-slider .slide .image img{
+            width:90%;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        
+        
+}

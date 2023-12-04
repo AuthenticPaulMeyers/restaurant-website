@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Link to custom stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Link to nav styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link to contact stylesheet -->
+    <link rel="stylesheet" href="css/styles2.css">
+    <!-- link to unicons icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <!-- Link to font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- MediaQueries for mobile and tablet -->
+    <link rel="stylesheet" href="css/phone.css">
+    <link rel="stylesheet" href="css/tablet.css">
+
+    <title>Kadishah Foods Landing Page</title>
+    <link rel="shortcut icon" href="images/leaf-solid.svg"type="image/x-icon">
+</head>
+<body>
+    
+    <!-- Header section starts -->
+    <header>
+        <a href="index.html" class="logo"><i class="fas fa-leaf"></i>Kadishah Foods</a>
+        <nav class="nav">
+            <i class="fas fa-bars navOpenBtn"></i>
+            <a href="index.html" class="logo"><i class="fas fa-leaf"></i>Kadishah Foods</a>
+
+      
+            <ul class="nav-links" id="menu">
+              <i class="fas fa-times navCloseBtn"></i>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#dishes">Dishes</a></li>
+              <li><a href="#order">Order</a></li>
+              <li><a href="#review">Review</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            
+            <div class="icons">
+                <i class="fas fa-search search-icon" id="searchIcon"></i>
+                <a href="#" class="fas fa-heart"></a>
+                <div class="icon-cart">
+                    <a class="fas fa-shopping-cart"></a>
+                    <span class="number">0</span>
+                </div>                    
+            </div>
+            <div class="search-box">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" placeholder="Search here..." />
+            </div>
+        </nav>    
+    </header>
+
+
+    <!-- home Section starts here -->
+
+    <section class="home" id="home">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>Greek Salad</h3>
+                        <p>A refreshing mix of quinoa, cucumbers, tomatoes, olives, and feta in a lemon vinaigrette.</p>
+                        <a href="buy.html" class="cart-btn btn"><i class="fas fa-shopping-cart"></i>Buy now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/salad.jpeg" alt="Salad">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our special dish</span>
+                        <h3>Cheeseburger</h3>
+                        <p>A slice of melted cheese on top of the meat patty</p>
+                        <a href="buy.html" class="cart-btn btn"><i class="fas fa-shopping-cart"></i>Buy now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/burger.jpeg" alt="Salad">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our special meal</span>
+                        <h3>Cold Pasta</h3>
+                        <p>Cold Pasta with cheese</p>
+                        <a href="buy.html" class="cart-btn btn"><i class="fas fa-shopping-cart"></i>Buy now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/chips.jpg" alt="Salad">
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- Home section ends here -->
+
+    <!-- Dishes starts -->
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">Our Specialty</h3>
+        <h1 class="heading">Popular meals</h1>
+         
+        <div class="box-container listProduct">
+
+        </div>
+        <div class="cartTab">
+            <h1>Your Catalogue</h1>
+            <div class="listCart">
+                
+            </div>
+            <div class="buttn">
+                <input type="button" class="close" value="CLOSE">
+                <input type="button" class="checkOut" value="CHECK OUT">
+            </div>
+        </div>
+    </section>
+    <!-- Dishes section ends -->
+
+    <!-- About section starts -->
+    <section class="about" id="about">
+        <h3 class="sub-heading">About Us</h3>
+        <h1 class="heading">Why choose us?</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/salad.jpeg" alt="">
+            </div>
+            <div class="content">
+                <p>Welcome to Kadishah Foods, a culinary haven where passion meets plate. Established with a vision to redefine dining, we are more than just a restaurant; we are a story of love for food and an unwavering commitment to creating exceptional experiences.</p><br>
+                <p>We celebrate diversity and creativity in the kitchen. Our menu is a harmonious blend of global influences and local inspiration, resulting in dishes that delight and surprise. From the first bite to the last sip, you'll taste the passion and precision we pour into every creation.</p><br>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Free Delivery</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Easy Payment</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 Services</span>
+                    </div>
+                </div>
+                <a href="about.html" class="cart-btn btn">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <!-- About section ends -->
+
+    <!-- Menu section starts -->
+    <section class="menu" id="menu">
+        <h3 class="sub-heading">Menu</h3>
+        <h1 class="heading">Our Delicious Menu</h1>
+
+        <div class="box-container">
+            <div class="box listProduct">
+                <div class="image">
+                    <img src="images/sea-food.jpg" alt="">
+                    <a href="#" class="far fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <span>(224 reviews)</span>
+                        
+                    </div>
+                    <h3>Fish Chowder</h3>
+                    <span class="price">Mk2,899</span>
+
+                    <p>Our fish chowder is made using fresh fish and clam juice.</p>
+                    <a href="#" class="cart-btn btn"><i class="fas fa-shopping-cart"></i>Add to cart</a>
+                </div>
+            </div>
+           
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/papaya slice.jpg" alt="">
+                    <a href="#" class="far fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <span>(522 reviews)</span>
+                        
+                    </div>
+                    <h3>Papaya Salad</h3>
+                    <span class="price">Mk3,999</span>
+
+                    <p>A medley of fresh vegetables, Papaya Slices and eggs.</p>
+                    <a href="#" class="cart-btn btn"><i class="fas fa-shopping-cart"></i>Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/Noodle Food Png Transparent Background Photoshop.jpg" alt="">
+                    <a href="#" class="far fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <span>(834 reviews)</span>
+                        
+                    </div>
+                    <h3>Noodles</h3> 
+                    <span class="price">Mk3,999</span>
+
+                    <p>Hot noodles with green pepper and chicken steak.</p>
+                    <a href="#" class="cart-btn btn"><i class="fas fa-shopping-cart"></i>Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/egg-salag.jpg" alt="">
+                    <a href="#" class="far fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <span>(2342 reviews)</span>
+                        
+                    </div>
+                    <h3>Seafood Ceviche</h3>
+                    <span class="price">Mk2,499</span>
+
+                    <p>The tastes of shrimp, eggs and sea bass.</p>
+                    <a href="#" class="cart-btn btn"><i class="fas fa-shopping-cart"></i>Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/fried-schicken-bruger.jpg" alt="">
+                    <a href="#" class="far fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <span>(806 reviews)</span>
+                        
+                    </div>
+                    <h3>Fried Chicken Sandwich</h3>
+                    <span class="price">Mk2,990</span>
+
+                    <p>A crispy chicken sandwich with tender and juicy flavour all over.</p>
+                    <a href="#" class="cart-btn btn"><i class="fas fa-shopping-cart"></i>Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/Chicken&Three!.jpg" alt="">
+                    <a href="#" class="far fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <span>(9034 reviews)</span>
+                        
+                    </div>
+                    <h3>Chicken Quesadilla</h3>
+                    <span class="price">Mk2,499</span>
+
+                    <p>Chicken & Three Cheese Quesadilla - melted cheese and chicken goodness.</p>
+                    <a href="#" class="cart-btn btn"><i class="fas fa-shopping-cart"></i>Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/California roll .jpg" alt="">
+                    <a href="#" class="far fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <span>(9084 reviews)</span>
+
+                        
+                    </div>
+                    <h3>California Roll</h3>
+                    <span class="price">Mk5,899</span>
+
+                    <p>California roll Smoked salmon Sushi Tempura Sashimi.</p>
+                    <a href="#" class="cart-btn btn"><i class="fas fa-shopping-cart"></i>Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/Chicken Tikka .jpg" alt="">
+                    <a href="#" class="far fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        
+                        <i class="fas fa-star"></i>
+                        <span>(3034 reviews)</span>
+
+                       
+                    </div>
+                    <h3>Chicken Tikka Masala</h3>
+                    <span class="price">Mk4,499</span>
+
+                    <p>Roasted marinated chicken chunks in a spiced sauce.</p>
+                    <a href="#" class="cart-btn btn"><i class="fas fa-shopping-cart"></i>Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/Boneless Chicken Wings.jpg" alt="">
+                    <a href="#" class="far fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <span>(2099 reviews)</span>
+
+                        
+                    </div>
+                    <h3>Boneless Wings</h3>
+                    <span class="price">Mk8,999</span>
+
+                    <p>Chicken breasts, buffalo sauce, egg, and garlic powder.</p>
+                    <a href="#" class="cart-btn btn"><i class="fas fa-shopping-cart"></i>Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/Tomato Bacon Pizza with Homemade Pizza Dough _ White On Rice Couple.jpg" alt="">
+                    <a href="#" class="far fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <span>(1114 reviews)</span>
+                    </div>
+                    <h3>Tomato Bacon Pizza</h3>
+                    <span class="price">Mk9,999</span>
+                    <p>Tomato Bacon Pizza with Homemade Pizza Dough _ White On Rice Couple.</p>
+                    <a href="#" class="cart-btn btn"><i class="fas fa-shopping-cart"></i>Add to cart</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Menu section ends -->
+
+
+    <!-- Review scetion starts -->
+        <section class="review" id="review">
+            <h3 class="sub-heading">Testimonials</h3>
+            <h1 class="heading">Customers' Review</h1>
+
+            <div class="swiper-container review-slider">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/customer-1.jpg" alt="Customer">
+                            <div class="user-info">
+                                <h3>Kadishah Meyers</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>What an amazing experience! I celebrated my anniversary at Kadishah Foods, and it was nothing short of magical. The ambiance, the service, and, of course, the food, were outstanding. I can't recommend this place enough.</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/customer-2.jpg" alt="Customer">
+                            <div class="user-info">
+                                <h3>Florah C.</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>As a food enthusiast, I'm always on the hunt for extraordinary culinary experiences. Kadishah Foods blew me away with its creative menu and exceptional flavors. The attention to detail in every dish is remarkable. A must-visit for any food lover!</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/customer-3.jpg" alt="Customer">
+                            <div class="user-info">
+                                <h3>John Carter</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>I'm a frequent patron of Kadishah Foods, and every visit feels like coming home. The staff remembers your preferences, and the dishes are consistently delicious. It's the kind of place where you can count on a great meal every time.</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/customer-4.jpg" alt="Customer">
+                            <div class="user-info">
+                                <h3>Paul jr.</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>I'm a vegetarian, and finding a restaurant that caters to my dietary needs and still offers mouthwatering options can be challenging. Kadishah Foods not only had a fantastic selection of vegetarian dishes but also made sure each one was bursting with flavor.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <!-- Review section ends -->
+
+        <!-- Order section starts -->
+            <section class="order" id="order">
+                <h3 class="sub-heading">Order Now</h3>
+                <h1 class="heading">Fast Delivery</h1>
+
+                <form action="" id="" name="">
+                    
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Name</span>
+                            <input type="text" placeholder="Enter your name">
+                        </div>
+                        <div class="input">
+                            <span>Order</span>
+                            <input type="text" placeholder="Enter your meal name">
+                        </div>
+                    </div>
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Phone number</span>
+                            <input type="text" placeholder="Enter phone number">
+                        </div>
+                        <div class="input">
+                            <span>Additional meal</span>
+                            <input type="text" placeholder="Enter additonal order">
+                        </div>
+                    </div>
+
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Number of Orders</span>
+                            <input type="number" placeholder="Enter number of orders">
+                        </div>
+                        <div class="input">
+                            <span>Date and Time</span>
+                            <input type="datetime-local">
+                        </div>
+                    </div>
+
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Address</span>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Enter your address"></textarea>
+                        </div>
+                        <div class="input">
+                            <span>Message</span>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="Order Now" class="btn">
+                </form>
+            </section>
+        <!-- Order section ends -->
+
+            <!-- Footer section starts -->
+            <section class="footer">
+                <div class="box-container">
+                    <div class="box">
+                        <h3>Locations</h3>
+                        <a href="#">Lilongwe</a>
+                        <a href="#">Blantyre</a>
+                        <a href="#">Liwonde</a>
+                    </div>
+                    <div class="box">
+                        <h3>Quick Links</h3>
+                        <a href="#menu">Menu</a>
+                        <a href="#order">Order</a>
+                        <a href="#dishes">Dishes</a>
+                        <a href="#about">About</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="faq.html">FAQ</a>
+
+                    </div>
+                    <div class="box">
+                        <h3>Contact info</h3>
+                        <a href="#">+265 995 389 346</a>
+                        <a href="#">+265 885 389 346</a>
+                        <a href="#">Kadishahfoods@gmail.com</a>
+
+                    </div>
+                    <div class="box">
+                        <h3>Follow Us</h3>
+                        <a href="#">twitter</a>
+                        <a href="#">facebook</a>
+                        <a href="#">instagram</a>
+
+                    </div>
+                    
+                </div>
+            <div class="credit">copyright@Kadishah-foods-2023</div>
+            </section>
+            <!-- Footer section ends -->
+
+
+
+
+
+
+
+
+        <!-- link to custom swiper -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- Link to exernal js file -->
+    <script src="js/cart.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/nav.js" defer></script>
+
+</body>
+</html>

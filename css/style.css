@@ -1,0 +1,278 @@
+
+.nav {
+    position:fixed;
+    top:0; left:0; right:0;
+    background-color: #fff;
+    padding:1rem 4%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 10000;
+    width: 100vw;
+}
+
+.window-scroll-y{
+  box-shadow: var(--box-shadow);
+}
+.nav,
+.nav .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: var(--orange);
+  text-decoration: none;
+  font-size:1.5rem;
+}
+
+.nav .nav-links {
+  column-gap: 20px;
+  list-style: none;
+}
+.nav .nav-links a {
+  transition: all 0.2s linear;
+}
+.nav.openSearch .nav-links a {
+  opacity: 0;
+  pointer-events: none;
+}
+.nav .search-icon {
+  color: var(--orange);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.nav .search-box {
+  position: absolute;
+  right: 250px;
+  height: 45px;
+  max-width: 555px;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s linear;
+  border: .1rem solid var(--orange);
+  max-width: 480px;
+}
+.nav.openSearch .search-box {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+header{
+  max-width: 480px;
+}
+.search-box .search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  left: 15px;
+  color: var(--orange);
+  transform: translateY(-50%);
+}
+.search-box input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 0 15px 0 45px;
+  color:#000;
+  font-size:1.3rem;
+}
+
+.nav .navOpenBtn,
+.nav .navCloseBtn {
+  display: none;
+}
+
+
+
+
+/* new cart styling */
+.icon-cart{
+  position: relative;
+}
+.icon-cart span{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size:1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:#fff;
+  background-color: var(--orange);
+  top: 0;
+  left:3rem;
+  right: 0;
+}
+
+/* cart */
+.cartTab{
+  width: 400px;
+  background-color: #fff;
+  color: var(--dark-orange);
+  position: fixed;
+  top: 0;
+  right: -400px;
+  bottom: 0;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  transition: .5s;
+  z-index: 111111;
+  box-shadow: var(--box-shadow);
+  max-width: 480px;
+  overflow-y: scroll;
+  padding: 0 1rem;
+}
+body.showCart .cartTab{
+  right: 0;
+}
+body.showCart .container{
+  transform: translateX(-250px);
+}
+.cartTab h1{
+  padding: 20px;
+  margin: 0;
+  font-weight:600;
+  font-size: 2.5rem;
+}
+.cartTab .buttn{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+
+}
+.cartTab .buttn .close{
+  border: none;
+  height:5rem;
+
+  font-weight: 500;
+  cursor: pointer;
+  background:black;
+  color:#fff;
+}
+.cartTab .buttn .checkOut{
+  border: none;
+  font-weight: 500;
+  height:5rem;
+  cursor: pointer;
+  background:var(--light-orange);
+  color:#fff;
+}
+.cartTab .buttn .checkOut:hover,
+.cartTab .buttn .close:hover{
+  opacity:0.8;
+}
+
+
+.listCart .item img{
+  width: 100%;
+  
+}
+.listCart .item{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 3px;
+  text-align: center;
+  align-items: center;
+}
+.listCart .name,
+.listCart .totalPrice{
+
+  font-size: 1.3rem;
+  color:#000;
+}
+.listCart .image{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  padding:.5rem;
+}
+.listCart .quantity span{
+  display: inline-block;
+  align-items:center;
+  flex-direction: row;
+  justify-content: center;
+  width: 25px;
+  line-height:25px;
+  text-align:center;
+  height: 25px;
+  background-color: #dadada;
+  border-radius: 50%;
+  color: #000;
+  cursor: pointer;
+  font-size:1.5rem;
+  font-weight:600;
+}
+.listCart .quantity span:nth-child(2){
+  background-color: transparent;
+  color: #000;
+  cursor: pointer;
+}
+.listCart .item:nth-child(even){
+  background-color: #eee1;
+}
+.listCart{
+  overflow: auto;
+}
+.listCart::-webkit-scrollbar{
+  width: 0;
+
+}
+.cart-qnty{
+  color:var(--dark-orange);
+  font-size:1rem;
+  font-weight:400;
+}
+
+html::-webkit-scrollbar{
+  background: none;
+  width: 1.5rem;
+  box-shadow: none;
+
+}
+html::-webkit-scrollbar-thumb{
+  background-color: var(--orange);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+@media screen and (max-width: 1160px) {
+  .nav {
+    padding: 15px 100px;
+  }
+  .nav .search-box {
+    right: 150px;
+  }
+  section{
+    padding:2rem;
+}
+}
+@media screen and (max-width: 950px) {
+  .nav {
+    padding: 15px 50px;
+
+  }
+  .nav .search-box {
+    right: 100px;
+    max-width: 400px;
+  }
+}
+

@@ -1,0 +1,89 @@
+[
+    {
+    "id": "M1",
+    "name":"Fish Chowder",
+    "price":2899,
+    "image": "images/sea-food.jpg",
+    "rating":"224",
+    "description": "Our fish chowder is made using fresh fish and clam juice."
+    },
+    {
+    "id": "M2",
+    "name":"Papaya Salad",
+    "price":3999,
+    "image": "images/papaya slice.jpg",
+    "rating":"522",
+    "description": "A medley of fresh vegetables, Papaya Slices and eggs."
+    },
+
+    {
+        "id": "M3",
+        "name":"Noodles",
+        "price":2999,
+        "image": "images/Noodle Food Png Transparent Background Photoshop.jpg",
+        "rating":"834",
+        "description": "Hot noodles with green pepper and chicken steak."
+     },
+
+     {
+        "id": "M4",
+        "name":"Seafood Ceviche",
+        "price":2499,
+        "image": "images/egg-salag.jpg",
+        "rating":"2342",
+        "description": "The tastes of shrimp, eggs and sea bass."
+     },
+     {
+        "id": "M5",
+        "name":"Fried Chicken Sandwich",
+        "price":2999,
+        "image": "images/fried-schicken-bruger.jpg",
+        "rating":"806",
+        "description": "A crispy chicken sandwich with tender and juicy flavour all over."
+     },
+     {
+        "id": "M6",
+        "name":"Chicken Quesadilla",
+        "price":2599,
+        "image": "images/Chicken&Three!.jpg",
+        "rating":"9034",
+        "description": "Chicken & Three Cheese Quesadilla - melted cheese and chicken goodness."
+     },
+     {
+        "id": "M7",
+        "name":"California Roll",
+        "price":2799,
+        "image": "images/California roll .jpg",
+        "rating":"904",
+        "description": "California roll Smoked salmon Sushi Tempura Sashimi."
+     },
+     {
+        "id": "M8",
+        "name":"Chicken Tikka Masala",
+        "price":4499,
+        "image": "images/Chicken Tikka .jpg",
+        "rating":"3034",
+        "description": "Roasted marinated chicken chunks in a spiced sauce."
+     },
+     {
+        "id": "M9",
+        "name":"Tomato Bacon Pizza",
+        "price":9999,
+        "image": "images/Tomato Bacon Pizza with Homemade Pizza Dough _ White On Rice Couple.jpg",
+        "rating":"1114",
+        "description": "Tomato Bacon Pizza with Homemade Pizza Dough _ White On Rice Couple."
+     },
+     {
+        "id": "M10",
+        "name":"Boneless Wings",
+        "price":8999,
+        "image": "images/Boneless Chicken Wings.jpg",
+        "rating":"293",
+        "description": "Chicken breasts, buffalo sauce, egg, and garlic powder."
+     }
+
+    
+
+
+]
+

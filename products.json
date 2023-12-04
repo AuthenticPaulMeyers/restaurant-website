@@ -1,0 +1,86 @@
+[
+    {
+        "id": "D1",
+        "name":"Roasted Chicken",
+        "price":14500,
+        "image": "images/Roasted Chicken with Vegetables.jpg",
+        "rating":"4.5"
+    },
+    {
+        "id": "D2",
+        "name":"Pasta",
+        "price":4999,
+        "image": "images/ramen.jpg",
+        "rating":"5"
+    },
+    {
+        "id": "D3",
+        "name":"Paw Paw Salad",
+        "price":2599,
+        "image": "images/pasta.jpg",
+        "rating":"4.5"
+    },
+    {
+        "id": "D4",
+        "name":"Thai Pasta",
+        "price":4599,
+        "image": "images/pasta-dish.jpg",
+        "rating":"4.5"
+    },
+    {
+        "id": "D5",
+        "name":"Noodles",
+        "price":3599,
+        "image": "images/noodles-egg.jpg",
+        "rating":"4.5"
+    },
+    {
+        "id": "D6",
+        "name":"Falatel Wrap",
+        "price":4599,
+        "image": "images/Falafel Wrap.jpg",
+        "rating":"4.5"
+    },
+    {
+        "id": "D7",
+        "name":"Caesar Salad",
+        "price":1599,
+        "image": "images/Caesar Salad.jpg",
+        "rating":"4"
+    },
+    {
+        "id": "D8",
+        "name":"Brownie",
+        "price":999,
+        "image": "images/Brownie.jpg",
+        "rating":"3"
+    },
+    {
+        "id": "D9",
+        "name":"Chicken Drums",
+        "price":4499,
+        "image": "images/Chicken Drums.jpg",
+        "rating":"4"
+    },
+    {
+        "id": "D10",
+        "name":"Burrito",
+        "price":2599,
+        "image": "images/Burrito.jpg",
+        "rating":"4"
+    },
+    {
+        "id": "D11",
+        "name":"Paw Paw Salad",
+        "price":1699,
+        "image": "images/papaya-salad.jpg",
+        "rating":"4.5"
+    },
+    {
+        "id": "D12",
+        "name":"Hot Dog",
+        "price":1500,
+        "image": "images/blong-burger.jpg",
+        "rating":"4.5"
+    }
+]
